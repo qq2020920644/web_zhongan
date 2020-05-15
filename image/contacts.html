@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+	<title>广东中安人防股份有限公司</title>
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" type="text/css" href="css/swiper.min.css"/>
+	<link rel="stylesheet" href="css/bootstrap.css" />
+	<link rel="stylesheet" href="css/animate.css">
+	<link rel="stylesheet" href="css/slick.css">
+	<link rel="stylesheet" href="css/jquery.fullPage.css" />
+	<link rel="stylesheet" href="css/public.css">
+	<link rel="stylesheet" href="http://api.map.baidu.com/library/SearchInfoWindow/1.5/src/SearchInfoWindow_min.css" />
+	<script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=FF019b1c97d0a41b04a9a8ca1d2a4df0"></script>
+	<script type="text/javascript" src="http://api.map.baidu.com/library/SearchInfoWindow/1.5/src/SearchInfoWindow_min.js"></script>
+</head>
+<body>
+	<!-- 导航 -->
+	<header class="header"> 
+		<div class="container clearfix"> 
+			<div class="fl left">
+				<a href="javascript:void(0)" ><img src="image/logo.png" alt="" class="img1" /></a>
+				<a href="javascript:void(0)" ><img src="image/logo.png" alt="" class="img2" /></a>
+			</div>
+			<div class="fr nav"> 
+				<ul class="navbar_nav" data-in="fadeInDown" data-out="fadeOutUp">
+					<li class="active">
+						<a href="index.html">首页</a>
+					</li>
+					<li class="dropdown">
+						<a href="javascript:void(0)">
+							关于中安
+						</a>
+						<div class="dropdown_menu">
+							<a href="about.html">公司简介</a>
+							<a href="history.html">发展历程</a>
+							<a href="organizational.html">组织框架</a>
+							<a href="culture.html">企业文化</a>
+							<a href="honor.html">荣誉资质</a>
+							<a href="team.html">团队风采</a>
+							<a href="environment.html">企业环境</a>
+						</div>
+					</li>
+					<li class="dropdown">
+						<a href="javascript:void(0)">产品中心</a>
+						<div class="dropdown_menu">
+							<a href="products.html">建设部系列</a>
+							<a href="products.html">总参数系列</a>
+							<a href="products.html">通风设备</a>
+							<a href="products.html">地铁门</a>
+							<a href="products.html">其他产品</a>
+						</div>
+					</li>
+					<li class="dropdown">
+						<a href="javascript:void(0)">工程案例</a>
+						<div class="dropdown_menu">
+							<a href="cases.html">工程案例</a>
+							<a href="cases.html">成品效果图</a>
+						</div>
+					</li>
+					<li class="dropdown">
+						<a href="javascript:void(0)">新闻动态</a>
+						<div class="dropdown_menu">
+							<a href="news.html">最新公告</a>
+							<a href="news.html">公司新闻</a>
+							<a href="news.html">行业动态</a>
+						</div>
+					</li>
+					<li>
+						<a href="jobs.html">招贤纳士</a>
+					</li>
+					<li>
+						<a href="contacts.html">联系中安</a>
+					</li>
+				</ul>
+			</div>
+			<a href="javascript:void(0)" id="navToggle">
+	            <span></span>
+	        </a>
+		</div>
+	</header>
+	<!--移动端的导航-->
+	<div class="m_nav">
+		<div class="top clearfix">
+			<img src="image/closed.png" alt="" class="closed" />
+		</div>
+		<div class="logo">
+			<img src="image/logo.png" alt="" />
+		</div>
+		<ul class="ul" data-in="fadeInDown" data-out="fadeOutUp">
+			<li class="active">
+				<a href="index.html">首页</a>
+			</li>
+			<li class="dropdown">
+				<a href="javascript:void(0)">
+					关于中安
+				</a>
+				<div class="dropdown_menu">
+					<a href="about.html">公司简介</a>
+					<a href="history.html">发展历程</a>
+					<a href="organizational.html">组织框架</a>
+					<a href="culture.html">企业文化</a>
+					<a href="honor.html">荣誉资质</a>
+					<a href="team.html">团队风采</a>
+					<a href="environment.html">企业环境</a>
+				</div>
+			</li>
+			<li class="dropdown">
+				<a href="javascript:void(0)">产品中心</a>
+				<div class="dropdown_menu">
+					<a href="products.html">建设部系列</a>
+					<a href="products.html">总参数系列</a>
+					<a href="products.html">通风设备</a>
+					<a href="products.html">地铁门</a>
+					<a href="products.html">其他产品</a>
+				</div>
+			</li>
+			<li class="dropdown">
+				<a href="javascript:void(0)">工程案例</a>
+				<div class="dropdown_menu">
+					<a href="cases.html">工程案例</a>
+					<a href="cases.html">成品效果图</a>
+				</div>
+			</li>
+			<li class="dropdown">
+				<a href="javascript:void(0)">新闻动态</a>
+				<div class="dropdown_menu">
+					<a href="news.html">最新公告</a>
+					<a href="news.html">公司新闻</a>
+					<a href="news.html">行业动态</a>
+				</div>
+			</li>
+			<li>
+				<a href="jobs.html">招贤纳士</a>
+			</li>
+			<li>
+				<a href="contacts.html">联系中安</a>
+			</li>
+		</ul>
+	</div>
+	<!-- 内容 -->
+   <div class="nbanner">
+   	<img src="image/banner_contact.jpg"/>
+   </div>
+
+   <div class="nbox">
+   	<div class="container">
+   		<div class="ntitle">
+   			<h2>联系我们</h2>
+   			<h4>Contact Us</h4>
+   			<p><span></span></p>
+   		</div>
+   		<div class="contacts">
+   			<div class="contacts_l">
+		        		<h2>广东中安人防股份有限公司</h2>
+		        		<p>联系电话：0752-2099990</p>
+		                <p>企业官网：<a href="http://www.zhonganrf.com/">www.zhonganrf.com</a></p>
+                        <p>地址1：广东省惠州市仲恺高新技术开发区和畅四路7号</p>
+                        <p>地址2：广东省惠州市惠城区长寿路29号</p>
+                        <ul class="icon">
+                        	<li>
+                        		<a href=""><img src="image/web.jpg"/><p>微信公众号</p></a>
+                        	</li>
+                        	<li>
+                        		<a href=""><img src="image/wechat.jpg"/><p>官方网站</p></a>
+                        	</li>
+                        </ul>
+		        	</div>
+		        	<div class="contacts_r">
+		        		<div class="online-box">
+					<form class="form-horizontal" role="form">
+						<h2>在线留言</h2>
+						<div class="form-group">
+							<label for="firstname" class="col-sm-2 control-label">您的称呼</label>
+							<div class="col-sm-9">
+								<input type="text" class="form-control" id="firstname"  placeholder="请输入联系人">
+							</div>
+							<span class="col-sm-1">*</span>
+						</div>
+						<div class="form-group">
+							<label for="lastname" class="col-sm-2 control-label">联系号码</label>
+							<div class="col-sm-9">
+								<input type="tel" class="form-control" id="lastname"   placeholder="请输入联系方式">
+							</div>
+							<span class="col-sm-1">*</span>
+						</div>
+						<div class="form-group">
+							<label for="lastname" class="col-sm-2 control-label">电子邮箱</label>
+							<div class="col-sm-9">
+								<input type="email" class="form-control" id="lastname" placeholder="请输入有效邮箱">
+							</div>
+						</div>
+						<div class="form-group">
+						    <label for="lastname" class="col-sm-2 control-label">在线留言</label>
+						    <div class="col-sm-9"> <textarea class="form-control" rows="4"></textarea></div>
+						</div>
+						<div class="form-group">
+							<div class="col-sm-offset-2 col-sm-10">
+								<button type="submit" class="btn btn-default online-botton">登录</button>
+							</div>
+						</div>
+					</form>
+				</div>
+		        		
+		        	</div>
+   		</div>
+   		
+   		
+   		
+   		<div id="map"></div>
+   	</div>
+   </div>
+  
+<div class="footer">
+	<div class="container">
+	<div class="footer_l">
+		<ul>
+			<li>
+				<h3>关于中安</h3>
+				<div class="footer_l_c">
+					<ul>
+						<li class="nnav_on"><a href="about.html">公司简介</a></li>
+						<li><a href="history.html">发展历程</a></li>
+						<li><a href="organizational.html">组织框架</a></li>
+						<li><a href="culture.html">企业文化</a></li>
+						<li><a href="honor.html">荣誉资质</a></li>
+						<li><a href="team.html">团队风采</a></li>
+						<li><a href="environment.html">企业环境</a></li>
+					</ul>
+				</div>
+			</li>
+			<li>
+				<h3>产品中心</h3>
+				<div class="footer_l_c">
+					<ul>
+						<li><a href="products.html">建设部系列</a></li>
+						<li><a href="products.html">总参数系列</a></li>
+						<li><a href="products.html">通风设备</a></li>
+						<li><a href="products.html">地铁门</a></li>
+						<li><a href="products.html">其他产品</a></li>
+					</ul>
+				</div>
+			</li>
+			<li>
+				<h3>工程案例</h3>
+				<div class="footer_l_c">
+					<ul>
+						<li><a href="cases.html">工程案例</a></li>
+						<li><a href="cases.html">成品效果图</a></li>
+					</ul>
+				</div>
+			</li>
+			<li>
+				<h3>新闻动态</h3>
+				<div class="footer_l_c">
+					<ul>
+						<li><a href="news.html">最新公告</a></li>
+						<li><a href="news.html">公司新闻</a></li>
+						<li><a href="news.html">行业新闻</a></li>
+					</ul>
+				</div>
+			</li>
+		</ul>
+	</div>
+	
+	<div class="footer_r">
+		<h3>广东中安人防股份有限公司</h3>
+		<p>企业固话：0752-2099990</p>
+		<p>企业官网：www.zhonganrf.com</p>
+		<p>地址1：广东省惠州市仲恺高新技术开发区和畅四路7号</p>
+		<p>地址2：广东省惠州市惠城区长寿路29号</p>
+	</div>
+	
+	</div>
+</div>  
+
+<div class="footer2">
+	<div class="container">
+		<a href="" class="footer2_l">版权所有: 广东中安人防股份有限公司</a>
+		<a href="http://www.wp-1.net/" target="_blank" class="footer2_r">技术支持: 网派科技</a>
+	</div>
+</div>
+    
+	<script src="js/jquery.min.js"></script>
+	<script src="https://cdn.bootcss.com/twitter-bootstrap/4.3.0/js/bootstrap.min.js"></script>
+	<script src="js/jquery.fullPage.min.js"></script>
+	<script src="js/index_slick.js"></script>
+	<script src="js/swiper.min.js"></script>
+	<script src="js/index.js"></script>
+<script>
+	var pageurl=window.location.href.toLowerCase();
+
+
+var map;
+function createmap()
+{
+	if($("#map").length!=1)return false;
+	//$("#map").css("height",windown_h+"px");
+	map = new BMap.Map("map");
+	var point = new BMap.Point(114.359722,23.043946);
+	map.centerAndZoom(point,19);
+	
+	var top_left_control = new BMap.ScaleControl({anchor: BMAP_ANCHOR_TOP_LEFT});// 左上角，添加比例尺
+	var top_left_navigation = new BMap.NavigationControl();  //左上角，添加默认缩放平移控件
+	map.addControl(top_left_control);        
+	map.addControl(top_left_navigation);
+	//
+	map.addEventListener("click", function(e){
+		map.enableScrollWheelZoom(true);
+	})
+	map.addEventListener("mouseout", function(e){
+		map.disableScrollWheelZoom();
+	})	
+
+var content = '<div style="margin:0;line-height:20px;padding:2px;">' +
+	'<p style="margin-bottom:5px;">地址：广东省惠州市仲恺高新技术开发区和畅四路7号</p><p style="margin-bottom:5px;">企业固话：0752-2099990</p></div>';
+
+    //创建检索信息窗口对象
+	var marker1 = new BMap.Marker(new BMap.Point(114.36001,23.044241));
+    var searchInfoWindow = null;
+	searchInfoWindow = new BMapLib.SearchInfoWindow(map, content, {
+			title  : "广东中安人防股份有限公司",      //标题
+			width  : 450,             //宽度
+			height : 110,              //高度
+			panel  : "panel",         //检索结果面板
+			enableAutoPan : true,     //自动平移
+			searchTypes   :[
+				BMAPLIB_TAB_SEARCH,   //周边检索
+				BMAPLIB_TAB_TO_HERE,  //到这里去
+				BMAPLIB_TAB_FROM_HERE //从这里出发
+			]
+		});
+    	marker1.addEventListener("click", function(e){
+	    searchInfoWindow.open(marker1);
+    })
+    map.addOverlay(marker1); //在地图中添加marker
+	marker1.setAnimation(BMAP_ANIMATION_BOUNCE);
+	
+	
+	
+	
+	
+//	var content1 = '<div style="margin:0;line-height:20px;padding:2px;">' +
+//	'<p style="margin-bottom:5px;">地址：广东省惠州市仲恺高新技术开发区和畅四路7号</p><p style="margin-bottom:5px;">企业固话：0752-2099990</p></div>';
+//
+//  //创建检索信息窗口对象
+//	var marker2 = new BMap.Marker(new BMap.Point(114.36013,23.044241));
+//  var searchInfoWindow1 = null;
+//	searchInfoWindow1 = new BMapLib.SearchInfoWindow(map, content1, {
+//			title  : "广东中安人防股份有限公司",      //标题
+//			width  : 450,             //宽度
+//			height : 110,              //高度
+//			panel  : "panel",         //检索结果面板
+//			enableAutoPan : true,     //自动平移
+//			searchTypes   :[
+//				BMAPLIB_TAB_SEARCH,   //周边检索
+//				BMAPLIB_TAB_TO_HERE,  //到这里去
+//				BMAPLIB_TAB_FROM_HERE //从这里出发
+//			]
+//		});
+//  	marker2.addEventListener("click", function(e){
+//	    searchInfoWindow1.open(marker2);
+//  })
+//  map.addOverlay(marker2); //在地图中添加marker
+//	marker2.setAnimation(BMAP_ANIMATION_BOUNCE);
+	
+	
+}
+createmap();
+
+
+
+var china;
+function createchina()
+{
+	if($("#china").length!=1)return false;
+	china = new BMap.Map("china");
+	var point = new BMap.Point(113.661994,22.907023);
+	china.centerAndZoom(point,19);
+	
+	var top_left_control = new BMap.ScaleControl({anchor: BMAP_ANCHOR_TOP_LEFT});// 左上角，添加比例尺
+	var top_left_navigation = new BMap.NavigationControl();  //左上角，添加默认缩放平移控件
+	china.addControl(top_left_control);        
+	china.addControl(top_left_navigation);
+	//
+	china.addEventListener("click", function(e){
+		china.enableScrollWheelZoom(true);
+	})
+	china.addEventListener("mouseout", function(e){
+		china.disableScrollWheelZoom();
+	})	
+
+
+	//var point = new BMap.Point(114.330608,22.905274);
+	var marker = new BMap.Marker(point);  // 创建标注
+	china.addOverlay(marker);              // 将标注添加到地图中
+	var opts = {
+	  width : 300,     // 信息窗口宽度
+	  height: 120,     // 信息窗口高度
+	  title : '<h3 style="margin-bottom:5px;">广东中安人防股份有限公司</h3>' , // 信息窗口标题
+	  enableMessage:true,//设置允许信息窗发送短息
+	  message:""
+	}
+	var infoWindow = new BMap.InfoWindow('<p>地址：广东省惠州市仲恺高新技术开发区和畅四路7号</p><p>企业固话：0752-2099990</p>', opts);  // 创建信息窗口对象 
+	marker.addEventListener("click", function(){          
+		china.openInfoWindow(infoWindow,point); //开启信息窗口
+	});
+
+
+var content = '<div style="margin:0;line-height:20px;padding:2px;">' +
+	'<p style="margin-bottom:5px;">地址：广东省惠州市仲恺高新技术开发区和畅四路7号</p><p style="margin-bottom:5px;">企业固话：0752-2099990</p></div>';
+
+    //创建检索信息窗口对象
+	var marker1 = new BMap.Marker(new BMap.Point(113.661994,22.907023));
+    var searchInfoWindow = null;
+	searchInfoWindow = new BMapLib.SearchInfoWindow(china, content, {
+			title  : "广东中安人防股份有限公司",      //标题
+			width  : 450,             //宽度
+			height : 110,              //高度
+			panel  : "panel",         //检索结果面板
+			enableAutoPan : true,     //自动平移
+			searchTypes   :[
+				BMAPLIB_TAB_SEARCH,   //周边检索
+				BMAPLIB_TAB_TO_HERE,  //到这里去
+				BMAPLIB_TAB_FROM_HERE //从这里出发
+			]
+		});
+    	marker1.addEventListener("click", function(e){
+	    searchInfoWindow.open(marker1);
+    })
+
+    china.addOverlay(marker1); //在地图中添加marker
+	marker1.setAnimation(BMAP_ANIMATION_BOUNCE);
+}
+createchina();
+</script>  
+</body>
+</html>
